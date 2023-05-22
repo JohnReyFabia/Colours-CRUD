@@ -1,0 +1,44 @@
+
+    label{display:block;}
+
+    div{
+    width: 200px;
+    background-color: lightgrey;
+    border: 15px solid orangered;
+    padding: 50px;
+    margin: 20px;
+    }
+
+    body{
+        background-image: url("background.png");
+        background-size: 80%;
+    }
+
+/*navigation Bar */
+ul {
+    list-style-type: none;
+    margin: 50px;
+    padding: 40;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
