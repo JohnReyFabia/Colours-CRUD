@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input type="text" name="Pname" required value="">
                 <label for=""> Price </label>
                 <input type="text" name="Pprice" required value="">
-                <button>sad</button>
+            
             <br>          
         </div>
        

@@ -10,7 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $Etimeout = $_POST["Etimeout"];
 
     
-        $query= " INSERT INTO emoloyee VALUES (NULL,'$Ename', '$Etimein', '$Etimeout')";
+        $query= " INSERT INTO employee VALUES (NULL,'$Ename', '$Etimein', '$Etimeout')";
         mysqli_query($connect, $query,);
     }
 }
@@ -35,8 +35,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <input type="text" name="Etimein" required value="">
                 <label for=""> Time Out </label>
                 <input type="text" name="Etimeout" required value="">
-                <button>sad</button>
-            <br>          
+                        <br>          
         </div>
        
 </body>
